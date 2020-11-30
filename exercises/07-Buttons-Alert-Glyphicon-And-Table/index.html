@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<script src="https://kit.fontawesome.com/732648e6c2.js" crossorigin="anonymous"></script>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row justify-content-md-center">
+				<div class="col col-4 p-5">
+					<h5>Is hard to remember all the bootstrap elements</h5>
+					<p>The rest seems easy becausse it was very well thought! Don´t you agree?</p>
 
-<body>
+					<button class="btn btn-success">Yes</button>
+					<button class="btn btn-danger">No</button>
+				</div>
 
-</body>
-
+				<div class="col col-4 p-5">
+					<div class="alert alert-warning" role="alert">
+						<p><i class="fas fa-exclamation-circle"></i> If you don´t agree some of this people may slap you in the face:</p>
+					</div>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th scope="col">Firstname</th>
+								<th scope="col">Lastname</th>
+								<th scope="col">E-mail</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>John</td>
+								<td>Doe</td>
+								<td>john@example.com</td>
+							</tr>
+							<tr>
+								<td>Mary</td>
+								<td>Moe</td>
+								<td>mary@example.com</td>
+							</tr>
+							<tr>
+								<td>July</td>
+								<td>Dooley</td>
+								<td>july@example.com</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
